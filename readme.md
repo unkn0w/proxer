@@ -30,7 +30,7 @@ docker build -t proxer .
 Then just run it
 
 ```bash
-docker run -d proxer
+docker run -d -p 80:80 proxer
 ```
 
 ## Known Bugs and Issues
