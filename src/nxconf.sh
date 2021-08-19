@@ -9,7 +9,7 @@ if [ ! -f /config ]; then
     exit 1;
 fi
 
-# remove content of oryginal nginx config file
+# remove content of original nginx config file
 echo -n >$out
 
 for cfg in $(cat /config); do
