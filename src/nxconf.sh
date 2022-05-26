@@ -28,7 +28,7 @@ server {
         proxy_set_header Host \$host;
         proxy_http_version 1.1;
         proxy_set_header Upgrade \$http_upgrade;
-        #proxy_set_header Connection \$connection_upgrade;
+        proxy_set_header Connection \$connection_upgrade;
         proxy_ssl_name \$host;
         proxy_ssl_server_name on;
         proxy_ssl_verify off;
